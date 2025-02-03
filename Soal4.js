@@ -1,7 +1,7 @@
 function pileOfSharp(a) {
     for (var b = 0; b < a; b++) {
         var sharps = " ";
-        for (var c = a - 1; b >= 0; c--) {
+        for (var c = a - 1; c >= 0; c--) {
             if (b >= c) {
                 sharps += "#";
             }
@@ -12,4 +12,4 @@ function pileOfSharp(a) {
         console.log(sharps);
     }
 }
-pileOfSharp(4);
+pileOfSharp(6);
