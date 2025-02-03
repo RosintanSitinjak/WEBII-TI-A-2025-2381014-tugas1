@@ -12,4 +12,4 @@ function pileOfSharp(a: number): void {
     console.log(sharps);
   }
 }
-pileOfSharp(6);
+pileOfSharp(4);
